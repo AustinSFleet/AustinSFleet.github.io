@@ -1,8 +1,11 @@
 body {
-    background: black;
+    background-image:url("../photos/wooden.jpg");
+    background-color: #cccc;
     color: white;
     font-size: 15px;
     font-family: 'Asap', sans-serif;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .5px;
 }
 
 .profPic {
@@ -16,7 +19,7 @@ body {
 .jumbotron {
     color: white;
     font-size: 45px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     margin-left: 35%;
     margin-bottom:-50px;
     margin-top:-50px;
@@ -37,10 +40,15 @@ body {
     padding-left:35%;
 }
 
-.nav.inline-navbar>li{
+.nav.inline-navbar{
     display: inline-block;
 }
 
 .headtext {
     font-size: 25px;
+}
+
+.wrapper {
+    background-color: rgba(20, 20, 20, 0.555);
+    font-size: 18px;
 }
