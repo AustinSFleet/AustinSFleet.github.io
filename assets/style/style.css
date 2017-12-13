@@ -1,5 +1,5 @@
 body {
-    /* background-image:url("../photos/wooden.jpg"); */
+    background-image:url("../photos/wooden.png");
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     font-size: 15px;
@@ -66,11 +66,24 @@ a {
 
 a:hover {
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 28px;
     text-shadow: 1px 3px 2px black; 
 }
 
+
+
 .container {
-    background-color: rgba(20, 20, 20, 0.616);
+    /* background-color: rgba(20, 20, 20, 0.616); */
     font-size: 18px;
+}
+
+
+
+.navbar { 
+    text-align: center; 
+    /* background-color: rgba(20, 20, 20, 0.616); */
+}
+
+ul.nav li { 
+    display: inline; 
 }
