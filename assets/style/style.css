@@ -1,6 +1,6 @@
 body {
-    background-image:url("../photos/wooden.jpg");
-    background-color: #cccc;
+    /* background-image:url("../photos/wooden.jpg"); */
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     font-size: 15px;
     font-family: 'Asap', sans-serif;
@@ -28,9 +28,16 @@ body {
     
 }
 
+.austinIndex {
+    font-size: 70px;
+    text-shadow: 1px 10px 2px black; 
+    margin-left:-10px;
+
+}
+
 .name {
  font-size: 45px;
- margin-left:138px;
+ margin-left:130px;
  margin-bottom:10px;
  font-family: 'Asap', sans-serif;
 }
@@ -58,7 +65,9 @@ a {
 }
 
 a:hover {
-    color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-shadow: 1px 3px 2px black; 
 }
 
 .container {
