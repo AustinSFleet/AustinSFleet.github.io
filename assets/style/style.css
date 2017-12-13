@@ -48,7 +48,20 @@ body {
     font-size: 25px;
 }
 
-.wrapper {
+/* .wrapper {
     background-color: rgba(20, 20, 20, 0.555);
+    font-size: 18px;
+} */
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(2, 2, 2);
+}
+
+.container {
+    background-color: rgba(20, 20, 20, 0.616);
     font-size: 18px;
 }
