@@ -1,9 +1,9 @@
 body {
-    background-image:url("../photos/wooden.png");
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-image:url("../photos/wooden.png"); */
+    background-color: rgba(0, 113, 189, 0.966);
     color: white;
     font-size: 15px;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: .5px;
 }
@@ -17,19 +17,27 @@ body {
 }
 
 .jumbotron {
-    color: white;
+    color: black;
     font-size: 45px;
-    background-color: rgba(0, 0, 0, 0);
+    width:400px;
+    background-color: rgba(255, 255, 255, 0);
     margin-left: 35%;
-    margin-bottom:-50px;
-    margin-top:-50px;
-    font-family: 'Asap', sans-serif;
-
-    
+    margin-bottom:-40px;
+    margin-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+        
 }
 
+
+.wrapper a {
+    color:white;
+}
+
+.wrapper a :hover {
+    color:white;
+}
 .austinIndex {
-    font-size: 70px;
+    font-size: 55px;
     /* text-shadow: 1px 10px 2px black;  */
     margin-left:-10px;
 
@@ -38,18 +46,33 @@ body {
 .name {
  font-size: 45px;
  margin-left:130px;
- margin-bottom:10px;
- font-family: 'Asap', sans-serif;
+ margin-bottom:-30px;
+ margin-top:10px;
+ font-family: 'Roboto Mono', monospace;
+ /* background-color: black; */
 }
+
+.projectName {
+    font-size: 45px;
+    margin-left:130px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contactMe {
+    margin-top: -10px;
+}
+
 
 .footer-copyright {
     padding-top:50px;
     padding-left:35%;
 }
 
-.nav.inline-navbar{
+/* .nav, .inline-navbar{
     display: inline-block;
-}
+} */
 
 .headtext {
     font-size: 25px;
@@ -65,25 +88,106 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
-    font-size: 28px;
+    color: rgb(255, 255, 255); 
+    z-index: 2;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
     text-shadow: 1px 3px 2px black; 
+    z-index: 2;
+}
+
+
+.jumbotron{
+    color:white;
 }
 
 
 
 .container {
-    /* background-color: rgba(20, 20, 20, 0.616); */
+    background-color: rgba(20, 20, 20, 0.616);
     font-size: 18px;
 }
 
+/* header{
+    margin:0;
+    padding:0;
+    
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    } */
+
+    .headerWrapper {
+        background-color: white;
+        color: black;
+        margin-bottom: 4%;
+        height: 70px;
+    }
+
+    a.headerWrapper {
+        color: black;
+    }
+    
+    #logo-large{
+    display: inline;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 200%;
+    height: 30px;
+    
+    }
+    
+    #logo-small{
+    display: inline;
+    font-weight:0;
+    font-size: 3em;
+    
+    }
+    
+    nav{
+        display:block;
+        float:right;
+    }
+    
+    nav ul{
+        list-style:none;
+    }
+
+    footer{
+        color: black;
+    }
+    
+
+    /* nav ul li{
+        display:inline-block;
+    } */
 
 
-.navbar { 
-    text-align: center; 
-    /* background-color: rgba(20, 20, 20, 0.616); */
-}
+/* .navbar { 
+    text-align: center;
+    float: right;
+    /* background-color: rgb(255, 255, 255); */
+/* } */
 
-ul.nav li { 
+/* ul.nav li { 
     display: inline; 
+    /* background-color: white; */
+    /* float:right; */
+/* } */
+
+
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
+li {
+    display: inline;
+} */
