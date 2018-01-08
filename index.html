@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="assets/style/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -19,8 +21,8 @@
 <body>
 <header>
     <div class ="header">
-        <div class="headerWrapper">      
-            <h1 id="logo-large">AUSTIN FLEET</h1>          
+        <div class="headerWrapper text-center">      
+            <h1 id="logo-large" class="text-center">AUSTIN FLEET</h1>          
                 <nav>
                     <ul>
                         <li class="active"><a href="index.html">projects</a></li>
@@ -36,58 +38,66 @@
     
     
 <div class="container">
-        <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <div class="projectName">Projects</div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mainHead">
+                        <div class="projectName text-center">
+                            Local Austinite passionate about web development.
+                        </div>
+                        <div class="viewproj text-center">
+                            Check out my projects below!
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3"></div>
+                
             </div>
+                
+                <div class="row mainBody">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img class="batmat" src="assets/photos/battlemath.png"> 
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                        <p>
+                                            Battle Math is a project that I dearly love. Battle math is a react app that aims to incorporate learning and video games, targeting elementary aged students. The goal is simple but I highly encourage you to create a profile and explore it yourself! It is deployed through heroku and was built in 7 days. I really wanted to foster an environment of exploration, and as you level up, you'll gain more abilities to defeat the tougher enemies. If you'd like to try it out <a href="http://battlemath.herokuapp.com/" target="_blank"> click here!</a>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="row">
-        <div class="col-md-6">
-            <img class="batmat" src="assets/photos/battlemath.png"> 
-        </div>
-
-        <div class="col-md-6">
-            <div class="wrapper">
-                <img class="plothole"src="assets/photos/plotholes.JPG" width="503" height="234.156px"> 
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img class="plothole"src="assets/photos/plotholes.JPG" width="503" height="234.156px">
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                        <p>
+                                            Plot Holes was a two day project made strictly with HTML,CSS, and Javascript. It's deployed through github and was a small group project working through using external APIs. Plot Holes is a simple trivia game that uses OMDB for plots and depending on whether you win or lose, you'll receive a celebratory or condemning gif, respectively! The gifs come courtesy of the Giphy API, and was a really fun quick app to develop. If you'd like to try it out <a href="https://jamiewithay.github.io/PlotHoles/" target="_blank"> click here!</a>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-<br>
-<br>
-<br>
-
-    <div class="row">
-        <div class="col-md-6">
-            <div class="wrapper">
-                <p>
-                    Battle Math is a project that I dearly love. Battle math is a react app that aims to incorporate learning and video games, targeting elementary aged students. The goal is simple but I highly encourage you to create a profile and explore it yourself! It is deployed through heroku and was built in 7 days. I really wanted to foster an environment of exploration, and as you level up, you'll gain more abilities to defeat the tougher enemies. Future plans include to scale to a larger world, react really makes it simple to scale and add more monsters and increase the difficulty of math questions available. If you'd like to try it out <a href="http://battlemath.herokuapp.com/" target="_blank"> click here!</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="col-md-6">
-            <div class="wrapper">
-                <p>
-                    Plot Holes was a two day project made strictly with HTML,CSS, and Javascript. It's deployed through github and was a small group project working through using external APIs. Plot Holes is a simple trivia game that uses OMDB for plots and depending on whether you win or lose, you'll receive a celebratory or condemning gif, respectively! The gifs come courtesy of the Giphy API, and was a really fun quick app to develop. If you'd like to try it out <a href="https://jamiewithay.github.io/PlotHoles/" target="_blank"> click here!</a>
-                </p>
-            </div>
-        </div>
-    </div>
-        
-    
-    
+    </div>      
 </div>
-
+<br>
+<br>
+<br>
 <footer>
-        <div class="footer-copyright">
-            <div class="container-fluid">
-              © 2017 Copyright: Austin Fleet
-            </div>
+        <div class="footer text-center">
+             © 2017 Copyright: Austin Fleet
         </div>
-    </footer>
+    </footer> 
 </body>
 </html>
