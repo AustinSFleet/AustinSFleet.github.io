@@ -1,9 +1,19 @@
+@font-face {
+    font-family:'linotypeBold';
+    src:url('linotypeBoldCond.otf');
+}
+
+@font-face {
+    font-family:'linotypeReg';
+    src:url('linotypeReg.ttf');
+}
+
 body {
     background-color: rgba(0, 113, 189, 0.966);
     color: white;
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'linotypeReg';
+
 }
 
 p {
@@ -58,7 +68,7 @@ p {
     margin-left: 35%;
     margin-bottom:-40px;
     margin-top: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'linotypeBold';
         
 }
 
@@ -91,21 +101,21 @@ p {
 .name {
  font-size: 45px;
  background-color: rgb(0, 0, 52);
- font-family: 'Open Sans', sans-serif;
+ font-family: 'linotypeBold';
 }
 
 .projectName {
     font-size: 45px;
     margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-style:italic;
-    font-weight: 100;
+    font-family: 'linotypeBold';
+    /* font-style:italic;
+    font-weight: 100; */
 }
 
 .viewproj {
     font-size: 30px;
     margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'linotypeBold';
     font-style:italic;
     font-weight: 100;
 }
@@ -147,10 +157,10 @@ a {
     color: white;
 }
 
-a:hover {
+/* a:hover {
     color: rgb(255, 255, 255); 
     z-index: 2;
-}
+} */
 
 nav li {
     list-style: none;
@@ -184,6 +194,7 @@ nav a:hover {
 .header{
     display: inline;
     width:100%;
+    font-family:'linotypeBold';
 }
 
 .wrapped {
@@ -197,6 +208,15 @@ nav a:hover {
     color:black;
 }
 
+.headerName a:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.692); 
+    text-decoration:none;
+}
+
+.homePage {
+    color:black;
+}
 
 
 .headerWrapper {
@@ -223,10 +243,31 @@ font-size: 3em;
 
 }
 
+.splashName {
+    font-size: 120px;
+    font-family:'linotypeBold';
+    margin-top: 15%;
+}
+
+.splashTitle {
+    font-size: 65px;
+    font-family:'linotypeBold';
+}
+
+.enterButton {
+    width:125px;
+    height: auto;
+    margin-top:25px;
+}
+
 footer{
     color: rgb(255, 255, 255);
     
     bottom: 0;
+}
+
+.indexFooter {
+    margin-top: 10%;
 }
 
 .contextWrapper {
