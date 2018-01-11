@@ -128,7 +128,8 @@ p {
 
 
 .contactMe {
-    margin-top: 25%;
+    font-size: 345%;
+    font-family: 'linotypeBold';
 }
 
 #contact {
@@ -204,7 +205,8 @@ nav a:hover {
 
 .headerName{
     font-size: 300%;
-    margin-left:3%;
+    max-width: 50%;
+   
     color:black;
 }
 
@@ -273,6 +275,27 @@ footer{
 .contextWrapper {
     max-width: 100%;
     height:auto;
+}
+
+.contactIcon {
+    width: 75px;
+    height:auto;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+#email {
+    height:75px;
+    width:auto;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+#linked {
+    height:125px;
+    width:auto;
+    margin-right: 10px;
+    margin-left:10px;
 }
 
 /* @media (max-width) */
