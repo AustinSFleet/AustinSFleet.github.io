@@ -73,15 +73,21 @@ p {
 }
 
 .darkBlue{
-    background-color: rgb(0, 0, 52);
+    background-color: rgba(0, 0, 52, 0.712);
+    color: rgb(255, 255, 255);
     margin-top:-15px;
     padding-top: -15px;
     padding-left: 20px;
 
 }
 
+.austinFl {
+    width:25%;
+    height:auto;
+}
+
 .darkBlue2{
-    background-color: rgb(0,0,52);
+    background-color: rgba(0, 0, 52, 0.712);
 }
 
 
@@ -110,6 +116,14 @@ p {
     font-family: 'linotypeBold';
     /* font-style:italic;
     font-weight: 100; */
+}
+
+.projectName4 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-left:27%;
+    width:100%;
+    font-family: 'linotypeBold';
 }
 
 .viewproj {
@@ -162,6 +176,10 @@ a {
     color: rgb(255, 255, 255); 
     z-index: 2;
 } */
+
+li {
+    font-family: 'linotypeBold';
+}
 
 nav li {
     list-style: none;
@@ -297,5 +315,11 @@ footer{
     margin-right: 10px;
     margin-left:10px;
 }
+
+h2 {
+    font-family: 'linotypeBold';
+}
+
+
 
 /* @media (max-width) */
