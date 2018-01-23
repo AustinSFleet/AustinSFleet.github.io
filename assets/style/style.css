@@ -138,6 +138,8 @@ p {
     background-color: rgb(0, 0, 52);
     padding-top:25px;
     padding-bottom:25px;
+    width:85%;
+    margin-left:7.5%;
 }
 
 
@@ -291,7 +293,7 @@ footer{
 }
 
 .contextWrapper {
-    max-width: 100%;
+    width: 60%;
     height:auto;
 }
 
@@ -318,6 +320,11 @@ footer{
 
 h2 {
     font-family: 'linotypeBold';
+}
+
+.projInfo {
+    margin-left:15%;
+    margin-right:15%;
 }
 
 
